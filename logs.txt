@@ -1,0 +1,23 @@
+commit 0a4a6a325cd899931b459de75aed339fd6d3181b (HEAD -> master, origin/master, origin/bug2, bug2)
+Merge: 43fe759 9423164
+Author: David Bejkovski <david.bejkovski@gmail.com>
+Date:   Sun Apr 14 23:21:40 2024 +0200
+
+    bla
+
+commit 94231645f00a01275854a2c5e02834f78cc2187f
+Author: David Bejkovski <david.bejkovski@gmail.com>
+Date:   Sun Apr 14 23:11:04 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit 43fe75902ffaddd3d55eab854882f57de1f7ef1b (origin/bug1, bug1)
+Author: David Bejkovski <david.bejkovski@gmail.com>
+Date:   Sun Apr 14 23:09:19 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit a56111767c7652acb214e317b9770a93f89dac2a
+Author: David Bejkovski <david.bejkovski@gmail.com>
+Date:   Sun Apr 14 23:05:26 2024 +0200
+:

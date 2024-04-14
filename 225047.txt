@@ -1,0 +1,111 @@
+
+6. 
+git add . da adneme se sto imame
+git status da go proverime statusot dali se izgleda vored
+pred commit
+
+7.
+gi prevzimam site fajlovi posebno preku download ikonata na github
+
+git add . gi adnuvam site
+git status so zelena boja mi se obelezani site 
+git commit -m "Add starter code" komitnuvam i so -m pisuvam soodvetna poraka
+
+8.
+pravime push
+
+git push origin master
+
+9. 
+git checkout master
+da se osigurame deka sme namaster grankata
+
+git checkout -b bug1
+kreirame nova granka bug1
+
+git checkout master
+se vrakjame na master
+
+git checkout -b bug2
+kreirame uste edna nova granka bug2
+
+10.
+git checkout bug1
+
+11.
+ja popravame greskata i pravime 
+
+
+git add .
+git commit -m "Fix wrong condition in filterOddLengthStrings"
+
+12.
+git checkout bug2
+
+13.
+ja popravame greskata i pravime
+git add .
+git commit -m "Fix wrong condition in makeBigStringFrom"
+
+14.
+git checkout bug1
+
+15.
+git add .
+git commit -m "Call method filterOddLengthStrings in main class"
+pravime commit so promenata
+
+16.
+git checkout bug2
+
+17.
+git add .
+git commit -m "Call method makeBigStringFrom in main class"
+pravime commit na branchot bug2 so novite izmeni
+
+18.
+git checkout bug1
+git push origin bug1
+se prfrlame na bug 1 i pravime push na origin odnosno remote repoto i ja dodavame grankata bug1
+
+git checkout bug2 
+git push origin bug2
+istoto go pravime i za bug2 grankata
+
+19. 
+git checkout master
+se prefrlame na master)
+
+20.
+git merge bug1
+gi spojuvame so ff bug 1 so master
+
+21.
+git push origin master
+sinhronizacija na master so remote
+
+22.
+git checkout bug2
+
+23.
+git rebase master
+
+
+git add .
+git commit -m "Fixed merge conflicts in bug2"
+git rebase --continue
+
+24.
+git checkout master
+
+25.
+git merge bug2
+ja spojuvame bug2 so master
+
+26.
+git push origin master
+pravime push na remote
+
+28.
+gi pastnuvame site logovi vo logs.txt
+git log > logs.txt```
